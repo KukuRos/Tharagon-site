@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- =========== FAVICON =========== -->
+    <link rel="shortcut icon" href="./assets/Vrenneth/img/faviconV.png" type="image/x-icon">
+
+    <!-- =========== BOXICONS =========== -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- =========== CSS =========== -->
+    <link rel="stylesheet" href="./assets/Vrenneth/css/style.css">
+
+    <title>Vrenneth</title>
+</head>
+<body>
+    <!-- =========== LOADER =========== -->
+    <div class="load" id="load">
+        <img src="./assets/Vrenneth/img/loaddice2.gif" alt="" class="load__gif">
+    </div>
+    <!-- =========== HEADER =========== -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <img src="./assets/Vrenneth/img/logo.png" alt="" class="nav__logo-img">
+                Vrenneth.
+            </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Inicio</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#details" class="nav__link">Detalles</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">Sobre el clan</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#blog" class="nav__link">Otros</a>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class='bx bx-x'></i>
+                </div>
+            </div>
+
+            <!-- Toggle button -->
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-grid-alt' ></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- =========== MAIN =========== -->
+    <main>
+        <!--==================== HOME ====================-->
+        <section class="home grid" id="home">
+                <div class="home__container">
+                    <div class="home__content container">
+                        <h1 class="home__title">
+                            El Espíritu Del Kaith Guía Tu Camino</i><span>.</span>
+                        </h1>
+                        <p class="home__description">
+                            elegantes, precisos y osados.
+                        </p>
+                        <div class="home__data">
+                            <div class="home__data-group">
+                                <h3 class="home__data-title">Atributo</h3>
+                                <h2 class="home__data-number">Agilidad</h2>
+                                <p class="home__data-description">
+                                    El clan más ligero.
+                                </p>
+                            </div>
+
+                            <div class="home__data-group">
+                                <h3 class="home__data-title">Magia</h3>
+                                <h2 class="home__data-number">Viento</h2>
+                                <p class="home__data-description">
+                                    Su magia innata es la magia de viento.
+                                </p>
+                            </div>
+                        </div>
+
+                        <a href="#rasgos">
+                            <img src="./assets/Vrenneth/img/scroll.png" alt="" class="home__scroll">
+                        </a>
+                    </div>
+                </div>
+                <img src="./assets/Vrenneth/img/home.jpg" alt="" class="home__img">
+        </section>
+
+        <!--==================== Rasgos ====================-->
+        <div class="rasgos section container" id="rasgos">
+            <div class="rasgos__container">
+                <div class="rasgos__box">
+                    <h2 class="section__title">
+                        Conoce las características de este clan!
+                    </h2>
+                    <div>
+                        <a href="https://reinoetereo.com/foro/viewtopic.php?f=19&t=54" class="button rasgos__button">Ver mas</a>
+                    </div>
+                </div>
+
+                <div class="rasgos__category">
+                    <div class="rasgos__group rasgos__line">
+                        <img src="./assets/Vrenneth/img/especiality1.png" alt="" class="rasgos__img">
+
+                        <h3 class="rasgos__title">Nombre</h3>
+                        <p class="rasgos__description">
+                            Toleran bajas temperaturas con facilidad, estando cómodos entre 0° y 20°. Con mayor esfuerzo pueden mantenerse en actividad a temperaturas de -10°.
+                        </p>
+                    </div>
+
+                    <div class="rasgos__group rasgos__line">
+                        <img src="./assets/Vrenneth/img/especiality2.png" alt="" class="rasgos__img">
+
+                        <h3 class="rasgos__title">Nombre</h3>
+                        <p class="rasgos__description">
+                            Sus huesos y tejidos son ligeramente más livianos y flexibles que los de otras razas, lo que los hace naturalmente más ágiles.
+                        </p>
+                    </div>
+
+                    <div class="rasgos__group">
+                        <img src="./assets/Vrenneth/img/especiality3.png" alt="" class="rasgos__img">
+
+                        <h3 class="rasgos__title">Nombre</h3>
+                        <p class="rasgos__description">
+                            son propensos al calor, necesitando sombra e hidratación por encima de los 20 grados y siendo prácticamente incapaces de actuar por encima de los 40 grados.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--==================== details ====================-->
+        <section class="details section" id="details">
+            <div class="detail__container container">
+                <h2 class="section__title">
+                    Descubre sus tierras, personajes y magia
+                </h2>
+
+                <ul class="details__filters">
+                    <li class="details__item details__line active-detail" data-filter=".lugares">
+                        <h3 class="details__title">Lugares</h3>
+                        <span class="details__stock">5 zonas</span>
+                    </li>
+
+                    <li class="details__item details__line" data-filter=".personajes">
+                        <h3 class="details__title">Personajes</h3>
+                        <span class="details__stock">5 personajes</span>
+                    </li>
+
+                    <li class="details__item" data-filter=".magias">
+                        <h3 class="details__title">Magias</h3>
+                        <span class="details__stock">4 elementos</span>
+                    </li>
+                </ul>
+                <div class="details__content grid">
+                    <!--============== Lugares ==============-->
+                    <article class="details__card lugares">
+                        <div class="details__shape">
+                            <img src="assets/Vrenneth/img/delicacies1.png" alt="" class="details__img">
+                        </div>
+
+                        <div class="details__data">
+                            <h2 class="details__price">Puerto del amanecer</h2>
+                            <h3 class="details__name"></h3>
+
+                            <button class="button details__button">
+                                <a href="#">
+                                    <i class='bx bx-link-external' ></i> 
+                                 </a>
+                            </button>
+                        </div>
+                    </article>
+
+                    <article class="details__card lugares">
+                        <div class="details__shape">
+                            <img src="assets/Vrenneth/img/delicacies2.png" alt="" class="details__img">
+                        </div>
+
+                        <div class="details__data">
+                            <h2 class="details__price">Elethar</h2>
+                            <h3 class="details__name">Capital</h3>
+
+                            <button class="button details__button">
+                                <a href="#">
+                                    <i class='bx bx-link-external' ></i> 
+                                 </a>
+                            </button>
+                        </div>
+                    </article>
+
+                    <article class="details__card lugares">
+                        <div class="details__shape">
+                            <img src="assets/Vrenneth/img/delicacies3.png" alt="" class="details__img">
+                        </div>
+
+                        <div class="details__data">
+                            <h2 class="details__price">Villair</h2>
+                            <h3 class="details__name"></h3>
+
+                            <button class="button details__button">
+                                <a href="#">
+                                    <i class='bx bx-link-external' ></i> 
+                                 </a>
+                            </button>
+                        </div>
+                    </article>
+
+                    <article class="details__card lugares">
+                        <div class="details__shape">
+                            <img src="assets/Vrenneth/img/delicacies1.png" alt="" class="details__img">
+                        </div>
+
+                        <div class="details__data">
+                            <h2 class="details__price">Ossnia</h2>
+                            <h3 class="details__name"></h3>
+
+                            <button class="button details__button">
+                                <a href="#">
+                                    <i class='bx bx-link-external' ></i> 
+                                 </a>
+                            </button>
+                        </div>
+                    </article>
+
+                    <article class="details__card lugares">
+                        <div class="details__shape">
+                            <img src="assets/Vrenneth/img/delicacies2.png" alt="" class="details__img">
+                        </div>
+
+                        <div class="details__data">
+                            <h2 class="details__price">Iliad</h2>
+                            <h3 class="details__name"></h3>
+
+                            <button class="button details__button">
+                                <a href="#">
+                                    <i class='bx bx-link-external' ></i> 
+                                 </a>
+                            </button>
+                        </div>
+                    </article>
+                    <!--============== Personajes ==============-->
+                    <article class="details__card personajes">
+                        <div class="details__shape">
+                            <img src="assets/Vrenneth/img/Alumi.jpg" alt="" class="details__img">
+                        </div>
+
+                        <div class="details__data">
+                            <h2 class="details__price">Alumi</h2>
+                            <h3 class="details__name">Support</h3>
+
+                            <button class="button details__button">
+                                
+                                <a href="https://reinoetereo.com/foro/viewtopic.php?f=49&t=401">
+                                   <i class='bx bx-link-external' ></i> 
+                                </a>
+                            </button>
+                        </div>
+                    </article>
+
+                    <article class="details__card personajes">
+                        <div class="details__shape">
+                            <img src="assets/Vrenneth/img/Jade.jpg" alt="" class="details__img">
+                        </div>
+
+                        <div class="details__data">
+                            <h2 class="details__price">Jade</h2>
+                            <h3 class="details__name">Warrior</h3>
+
+                            <button class="button details__button">
+                                <a href="https://reinoetereo.com/foro/viewtopic.php?f=49&t=189">
+                                    <i class='bx bx-link-external' ></i> 
+                                 </a>
+                            </button>
+                        </div>
+                    </article>
+
+                    <article class="details__card personajes">
+                        <div class="details__shape">
+                            <img src="assets/Vrenneth/img/Portia.jpg" alt="" class="details__img">
+                        </div>
+
+                        <div class="details__data">
+                            <h2 class="details__price">Portia</h2>
+                            <h3 class="details__name">Support</h3>
+
+                            <button class="button details__button">
+                                <a href="https://reinoetereo.com/foro/viewtopic.php?f=49&t=460">
+                                    <i class='bx bx-link-external' ></i> 
+                                 </a>
+                            </button>
+                        </div>
+                    </article>
+
+                    <article class="details__card personajes">
+                        <div class="details__shape">
+                            <img src="assets/Vrenneth/img/Ciel.jpg" alt="" class="details__img">
+                        </div>
+
+                        <div class="details__data">
+                            <h2 class="details__price">Ciel</h2>
+                            <h3 class="details__name">Mage</h3>
+
+                            <button class="button details__button">
+                                <a href="https://reinoetereo.com/foro/viewtopic.php?f=49&t=716">
+                                    <i class='bx bx-link-external' ></i> 
+                                 </a>
+                            </button>
+                        </div>
+                    </article>
+
+                    <article class="details__card personajes">
+                        <div class="details__shape">
+                            <img src="assets/Vrenneth/img/Ango.png" alt="" class="details__img">
+                        </div>
+
+                        <div class="details__data">
+                            <h2 class="details__price">Ango</h2>
+                            <h3 class="details__name">Warrior</h3>
+
+                            <button class="button details__button">
+                                <a href="https://reinoetereo.com/foro/viewtopic.php?f=49&t=759">
+                                    <i class='bx bx-link-external' ></i> 
+                                 </a>
+                            </button>
+                        </div>
+                    </article>
+                    <!--============== Magias ==============-->
+                    <article class="details__card magias">
+                        <div class="details__shape">
+                            <img src="assets/Vrenneth/img/cake1.png" alt="" class="details__img">
+                        </div>
+
+                        <div class="details__data">
+                            <h2 class="details__price">Viento</h2>
+                            <h3 class="details__name">Magia primaria</h3>
+
+                            <button class="button details__button">
+                                <a href="#">
+                                    <i class='bx bx-link-external' ></i> 
+                                 </a>
+                            </button>
+                        </div>
+                    </article>
+
+                    <article class="details__card magias">
+                        <div class="details__shape">
+                            <img src="assets/Vrenneth/img/cake2.png" alt="" class="details__img">
+                        </div>
+
+                        <div class="details__data">
+                            <h2 class="details__price">Luz</h2>
+                            <h3 class="details__name">Linea de sangre pura</h3>
+
+                            <button class="button details__button">
+                                <a href="#">
+                                    <i class='bx bx-link-external' ></i> 
+                                 </a>
+                            </button>
+                        </div>
+                    </article>
+
+                    <article class="details__card magias">
+                        <div class="details__shape">
+                            <img src="assets/Vrenneth/img/cake3.png" alt="" class="details__img">
+                        </div>
+
+                        <div class="details__data">
+                            <h2 class="details__price">Electricidad</h2>
+                            <h3 class="details__name">1/2 de sangre Arameddan</h3>
+
+                            <button class="button details__button">
+                                <a href="#">
+                                    <i class='bx bx-link-external' ></i> 
+                                 </a>
+                            </button>
+                        </div>
+                    </article>
+
+                    <article class="details__card magias">
+                        <div class="details__shape">
+                            <img src="assets/Vrenneth/img/cake4.png" alt="" class="details__img">
+                        </div>
+
+                        <div class="details__data">
+                            <h2 class="details__price">Hielo</h2>
+                            <h3 class="details__name">1/2 de sangre Tharagon</h3>
+
+                            <button class="button details__button">
+                                <a href="#">
+                                    <i class='bx bx-link-external' ></i> 
+                                 </a>
+                            </button>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== about ====================-->
+        <section class="about section" id="about">
+            <div class="about__container container">
+                <h2 class="section__title">
+                    Un vistazo al clan Vrenneth
+                </h2>
+
+                <div class="about__content grid">
+                    <div class="about__images">
+                        <img src="./assets/Vrenneth/img/quality1.png" alt="" class="about__img-big">
+                        <img src="./assets/Vrenneth/img/quality2.png" alt="" class="about__img-small">
+                    </div>
+
+                    <div class="about__data">
+                        <h1 class="about__title">Solo uno</h1>
+                        
+                        <p class="about__description">
+                            Los vrennethses son un pueblo espiritual. Si bien no tienen una religión unificada, la nación cree en la existencia de un espíritu humano que se eleva sobre pecados y deseos egoístas. Una persona capaz de liderar la nación con completa devoción. Esta persona es llamada "Kaith'eth" (literalmente "el que vuela). Reducido a "Kaith" a través del uso moderno, se cree que este individuo renace en una nueva persona tras cada muerte. <br /><br />
+
+                            Los monjes de la Orden del Viento son los encargados de gobernar en su ausencia, pero sus decisiones suelen dedicarse a mantener lo que ya fue pactado. Mientras tanto, la Orden busca, probando a los niños de toda la nación en busca de uno que demuestre las características y conocimientos de la última encarnación. <br />
+
+                            Estas pruebas pueden ir desde identificar juguetes específicos entre miles a medir las reacciones del infante ante hechos presenciados por el último Kaith. Una vez consideran han dado con la reencarnación, el niño es entregado a La Orden y criado para gobernar Vrenneth desde una temprana edad.<br /><br />
+
+                            Este ritual tiene opiniones encontradas entre las otras naciones y es muchas veces considerado una pantomima que permite a la Orden del Viento gobernar en secreto. No obstante, algunos gobernantes han afirmado encontrar inquietantes sus conversaciones con los Kaith, quienes parecen recordar conversaciones mantenidas mucho antes de su nacimiento.<br /><br />
+
+                            El Kaith actual tiene 17 años de edad.
+                        </p>
+
+                        <div class="about__buttons">
+                            <button class="button about__button">
+                                <a href="https://reinoetereo.com/foro/viewtopic.php?f=19&t=54">
+                                Saber mas
+                                </a>
+                            </button>
+
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== LOGOS ====================-->
+        <section class="logo section">
+            <div class="logo__container container grid">
+                <img src="./assets/Vrenneth/img/logocoffee1.png" alt="Arameddan" class="logo__img">
+                <img src="./assets/Vrenneth/img/logocoffee2.png" alt="Tharagon" class="logo__img">
+                <img src="./assets/Vrenneth/img/logocoffee3.png" alt="Darglance" class="logo__img">
+                <img src="./assets/Vrenneth/img/logocoffee4.png" alt="Hail" class="logo__img">
+                <img src="./assets/Vrenneth/img/logocoffee5.png" alt="Etzvaen" class="logo__img">
+            </div>
+        </section>
+
+        <!--==================== BLOG ====================-->
+        <section class="blog section" id="blog">
+            <div class="blog__container container">
+                <h2 class="section__title">
+                    Nuestras misiones y trasfondos de personaje
+                </h2>
+
+                <div class="blog__content grid">
+                    <article class="blog__card">
+                        <div class="blog__image">
+                            <img src="./assets/Vrenneth/img/blog1.png" alt="" class="blog__img">
+                            <a href="https://reinoetereo.com/foro/viewforum.php?f=120" class="blog__button">
+                                <i class='bx bx-chevron-right' ></i>
+                            </a>
+                        </div>
+
+                        <div class="blog__data">
+                            <h2 class="blog__title">
+                                Misiones
+                            </h2>
+                            <p class="blog__description">
+                                Misiones en tierras verdes
+                            </p>
+
+                            <div class="blog__footer">
+                                <div class="blog__reaction">
+                                    <i class='bx bx-comment' ></i>
+                                    <span>176</span>
+                                </div>
+
+                                <div class="blog__reaction">
+                                    <i class='bx bx-show' ></i>
+                                    <span>5.230</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="blog__card">
+                        <div class="blog__image">
+                            <img src="./assets/Vrenneth/img/blog2.png" alt="" class="blog__img">
+                            <a href="https://reinoetereo.com/foro/viewforum.php?f=49" class="blog__button">
+                                <i class='bx bx-chevron-right' ></i>
+                            </a>
+                        </div>
+
+                        <div class="blog__data">
+                            <h2 class="blog__title">
+                                Trasfondos
+                            </h2>
+                            <p class="blog__description">
+                                Fichas de personaje activos del clan Vrenneth
+                            </p>
+
+                            <div class="blog__footer">
+                                <div class="blog__reaction">
+                                    <i class='bx bx-comment' ></i>
+                                    <span>20</span>
+                                </div>
+
+                                <div class="blog__reaction">
+                                    <i class='bx bx-show' ></i>
+                                    <span>3.905</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- =========== FOOTER =========== -->
+    <footer class="footer">
+        <div class="footer__container container">
+            <h1 class="footer__title">Vrenneth.</h1>
+
+            <div class="footer__content grid">
+                <div class="footer__data">
+                    <p class="footer__description">
+                        
+                    </p>
+                </div>
+                <div class="footer__data">
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- =========== SCROLL UP =========== -->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class='bx bx-chevron-up' ></i>
+    </a>
+    <!-- =========== MIXITUP FILTER =========== -->
+    <script src="./assets/Vrenneth/js/mixitup.min.js"></script>
+
+    <!-- =========== MAIN JS =========== -->
+    <script src="./assets/Vrenneth/js/main.js"></script>
+</body>
+</html>
